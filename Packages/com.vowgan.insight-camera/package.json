@@ -1,0 +1,13 @@
+{
+  "name": "com.vowgan.insight-camera",
+  "displayName": "Vowgan Insight Camera",
+  "version": "2.4.1",
+  "unity": "2022.3",
+  "description": "Third person camera system with controlable tooling for third person games in VRChat.",
+  "vrchatVersion": "2022.1.1",
+  "author": {
+    "name": "Momo the Monster",
+    "email": "momodmonster@gmail.com",
+    "url": "https://mmmlabs.com"
+  }
+}
