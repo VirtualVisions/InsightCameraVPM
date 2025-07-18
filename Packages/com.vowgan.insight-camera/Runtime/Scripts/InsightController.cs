@@ -66,6 +66,7 @@ namespace Vowgan
         [SerializeField] private Camera CamUi;
         [SerializeField] private TextMeshProUGUI ControlHint;
         [SerializeField] private TextMeshProUGUI TextDebug;
+        [SerializeField] private bool AllowDebugCamera = false;
 
         [HideInInspector] public float Range = 1.5f;
         [HideInInspector] public float RangeFadeSpeed = 2;
@@ -159,7 +160,7 @@ namespace Vowgan
         {
             if (!directed)
             {
-                if (roaming)
+                if (roaming && AllowDebugCamera)
                 {
                     if (Input.GetKey(KeyCode.Keypad8))
                     {

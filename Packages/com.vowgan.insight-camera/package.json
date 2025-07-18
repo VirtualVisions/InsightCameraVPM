@@ -1,7 +1,7 @@
 {
   "name": "com.vowgan.insight-camera",
   "displayName": "Vowgan Insight Camera",
-  "version": "2.4.3",
+  "version": "2.4.4",
   "unity": "2022.3",
   "description": "Third person camera system with controlable tooling for third person games in VRChat.",
   "author": {
